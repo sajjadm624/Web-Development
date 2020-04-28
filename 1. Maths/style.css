@@ -1,0 +1,172 @@
+.container{
+  width: 1050px;
+  margin: 0 auto;
+}
+body{
+  background: lightgrey;
+}
+.header{
+  height: 100px;
+  padding: 10px 0;
+}
+
+.brand{
+  float: left;
+}
+
+
+h1 a{
+  font-size: 50px;
+  font-weight: 100;
+  color: #561BCD;
+  text-decoration: none;
+}
+
+.searchBox{
+  float: right;
+  background: linear-gradient(grey, skyblue);
+  width: 400px;
+  height: 50px;
+  padding: 20px 20px 0 20px;
+  margin-top: 20px;
+}
+
+.submit{
+  float: right;
+  padding: 5px;
+  font-weight: bold;
+  color: white;
+  background: lightgrey;
+  font-size: 12px;
+}
+
+.text{
+  float: left;
+  width: 200px;
+  padding: 5px;
+  font-size: 10px;
+  color: blue;
+  background: white url(images/search.png) right center no-repeat;
+}
+
+.clear{
+  clear: both;
+}
+.menu{
+  height: 30px;
+  background: linear-gradient(white , lightgrey);
+  padding: 0 5px;
+}
+
+ul{
+  list-style: none;
+}
+
+.menu ul li {
+  float: left;
+  padding: 0 30px;
+  height: 25px;
+  border-right: 1px solid black;
+}
+
+.menu ul li:last-child{
+  border-right: none;
+}
+
+.menu ul li a{
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  line-height: 25px;
+  -webkit-transition: font-size 0.3s ease;
+  -moz-transition: font-size 0.3s ease;
+  -o-transition: font-size 0.3s ease;
+  -ms-transition: font-size 0.3s ease;
+  transition: font-size 0.3s ease;
+}
+
+.menu ul li a:hover, .menu ul li a.active{
+  font-size: 22px;
+  font-weight: bold;
+  color: skyblue;
+}
+
+.intro{
+  background: linear-gradient(lightgrey, grey);
+  color: black;
+  transition: font-size 0.3s linear;
+  padding: 30px;
+  margin: 25px 0;
+}
+
+.intro h1{
+  font-size: 40px;
+
+}
+
+.intro:hover{
+  font-size: 19px;
+}
+
+.intro p{
+  text-align: justify;
+}
+
+.sidebar{
+  height: 400px;
+  width: 400px;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px 30px;
+}
+
+.sidebar h3{
+  font-size: 30px;
+  color: purple;
+}
+
+.sidebar ul li a{
+  text-decoration: none;
+  transition: font-size 0.4s linear;
+}
+
+.sidebar ul li a:hover{
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+}
+
+.sidebar ul li{
+  padding-bottom: 15px;
+  font-size: 15px;
+
+}
+
+#leftsidebar ul li{
+  padding-bottom: 15px;
+  padding-left: 10px;
+  list-style-image: url(images/arrow.png.png);
+}
+#rightsidebar ul li{
+  padding-bottom: 15px;
+  padding-left: 10px;
+  list-style-image: url(images/done.png);
+}
+#leftsidebar{
+  float: left;
+}
+
+#rightsidebar{
+  float: right;
+}
+
+.footer {
+  height: 60px;
+  background: linear-gradient(lightgrey, grey);
+  padding: 20px 30px;
+  margin-top: 60px;
+}
+
+.footer p{
+  text-align: center;
+}
