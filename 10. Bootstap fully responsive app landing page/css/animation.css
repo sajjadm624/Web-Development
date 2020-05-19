@@ -1,0 +1,21 @@
+.container{
+  background-color: black;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 590px;
+  width: 800px;
+}
+button{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  color: aliceblue;
+}
+body{
+  background-color: black;
+}
