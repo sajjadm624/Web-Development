@@ -29,14 +29,17 @@
 }
 
 .youtube{
+  display: block;
   text-align: center;
   padding: 20px 0 40px 0;
+  margin-left: auto;
+  margin-right: auto;
   color: black;
 }
 
-.youtube img{
-  width: 200px;
-  height: 70px;
+.youtube iframe{
+  width: 300px;
+  height: 10px;
   margin: 20px;
 }
 
