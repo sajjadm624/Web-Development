@@ -1,0 +1,68 @@
+body {
+  background: url(https://cdn.pixabay.com/photo/2020/04/17/14/16/landscape-5055384_960_720.jpg) fixed center center;
+  background-size: cover;
+  color: antiquewhite;
+}
+
+#header{
+  text-align: center;
+  font-size: 70px;
+  color: aquamarine;
+  font-family: 'Press Start 2P', cursive;;
+}
+#maintimer{
+  color: aliceblue;
+  margin-top: 20px;
+  font-family: 'Press Start 2P';
+  font-size: 40px;
+  text-align: center;
+}
+
+#laptimer{
+  color: aliceblue;
+  margin-top: 10px;
+  text-align: center;
+  font-family:  'Press Start 2P' sans-serif;
+  font-size: 30px;
+}
+
+.control{
+  color: white;
+  margin-top: 10px;
+  background-color: aqua;
+  height: 5vw;
+  width: 5vw;
+  text-align: center;
+  padding: 30% 0;
+  border-radius: 100%;
+  font-size: 1vw;
+  cursor: pointer;
+}
+
+.control:active{
+  color: black;
+  background-color: greenyellow;
+}
+
+.Laps{
+  max-height: 270px;
+  overflow-y: scroll;
+}
+
+.lap{
+  color: azure;
+  border-bottom: 1px solid black;
+  height: 50px;
+  margin: 15px;
+
+}
+
+.laptimetitle{
+  font-size: 1.5em;
+  float: left;
+}
+
+.laptime{
+  font-size: 2em;
+  float: right;
+}

@@ -1,0 +1,113 @@
+body {
+  text-align: center;
+  background: url(https://cdn.pixabay.com/photo/2015/09/13/21/15/room-938750_960_720.jpg) center center fixed;
+  background-size: cover;
+}
+
+#header{
+  background: radial-gradient(deepskyblue, #C4E6E8);
+  background: -webkit-radial-gradient(deepskyblue, #C4E6E8);
+  background: -moz-radial-gradient(deepskyblue, #C4E6E8);
+  background: -o-radial-gradient(deepskyblue, #C4E6E8);
+  background: -ms-radial-gradient(deepskyblue, #C4E6E8);
+  height: 60px;
+  width: 200px;
+  margin: 10px auto;
+  font-size: 2.2em;
+  line-height: 9vh;
+  font-family: monospace;
+  color: white;
+}
+
+.inputColor{
+  width: 200px;
+  margin: 0 auto;
+  margin-bottom: 3px;
+}
+
+.input{
+  height: 30px;
+  font-size: 1.1em;
+}
+
+#slider{
+  width: 400px;
+  margin: 0 auto;
+}
+
+#circle{
+  height:3px;
+  width: 3px;
+  border-radius: 50%;
+  background-color: black;
+  /* margin: 5 auto; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+#thicknessInput{
+  position: relative;
+  margin-bottom: 5px;
+}
+
+#container{
+  width: 1200px;
+  height: 450px;
+  background-color: white;
+  margin: 0 auto;
+  border: 1px solid rgba(122, 174, 229, 0.5);
+  margin-bottom: 15px;
+}
+
+.button{
+  width: 360px;
+  margin: 0px auto;
+}
+
+.buttonInput{
+  width: 120px;
+  color:  black;
+  font-size: 1.3em;
+  float: left;
+}
+
+.button2{
+  background: radial-gradient(#C4E6E8, darkgrey);
+  background: -webkit-radial-gradient(#C4E6E8, darkgrey);
+  background: -moz-radial-gradient(#C4E6E8, darkgrey);
+  background: -o-radial-gradient(#C4E6E8, darkgrey);
+  background: -ms-radial-gradient(#C4E6E8, darkgrey);
+  height: 60px;
+  padding: 8px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0px 4px grey;
+  -o-box-shadow: 0px 4px grey;
+  -moz-box-shadow: 0px 4px grey;
+  -webkit-box-shadow: 0px 4px 5px grey;
+}
+
+.button2:hover{
+  background: brown;
+}
+
+.button2:active{
+  background: aqua;
+}
+
+#paint{
+  background: white;
+  cursor: crosshair;
+}
+
+.eraseMode{
+  background: red;
+  color: white;
+}
